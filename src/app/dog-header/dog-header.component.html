@@ -1,0 +1,10 @@
+<div class="content">
+      <h1>Projeto Dogs</h1>
+      <p>Feito para consumir a API de cachorros aleatórios</p>
+      <br>
+      <p>Tamanho da imagem: {{dogFetched.fileSizeBytes}} Bytes</p>
+      <br>
+      <button (click)="getDogs()">Trocar cachorro</button>
+</div>
+
+<img src="{{dogFetched.url}}" alt="Cachorro">
